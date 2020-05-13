@@ -1,0 +1,226 @@
+<html>
+    <head>
+        <style>
+        * {
+          box-sizing: border-box;
+        }
+
+        body {
+          font-family: Arial;
+          padding: 10px;
+          background: #f1f1f1;
+        }
+
+        /* Header/Blog Title */
+        .header {
+          padding: 30px;
+          text-align: center;
+          background: white;
+        }
+
+        .header h1 {
+          font-size: 50px;
+        }
+
+        /* Style the top navigation bar */
+        .topnav {
+          overflow: hidden;
+          background-color: #333;
+        }
+
+        /* Style the topnav links */
+        .topnav a {
+          float: left;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+
+        /* Change color on hover */
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+
+        /* Create two unequal columns that floats next to each other */
+        /* Left column */
+        .leftcolumn {
+          float: left;
+          width: 25%;
+        }
+
+        /* Right column */
+        .rightcolumn {
+          float: left;
+          width: 75%;
+          background-color: #f1f1f1;
+          padding-left: 20px;
+        }
+
+        /* Fake image */
+        .fakeimg {
+          background-color: #aaa;
+          width: 100%;
+          padding: 20px;
+        }
+
+        /* Add a card effect for articles */
+        .card {
+          background-color: white;
+          padding: 20px;
+          margin-top: 20px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+        /* Footer */
+        .footer {
+          padding: 20px;
+          text-align: center;
+          background: #ddd;
+          margin-top: 20px;
+        }
+
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 800px) {
+          .leftcolumn, .rightcolumn {
+            width: 100%;
+            padding: 0;
+          }
+        }
+
+        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+        @media screen and (max-width: 400px) {
+          .topnav a {
+            float: none;
+            width: 100%;
+          }
+        }
+        </style>
+    </head>
+  <body>
+
+  <div class="row">
+    <div class="leftcolumn">
+      <div class="card">
+        <nav class="topnav" id="navbar">
+          <header>
+          <a href="#Getting_Production_Equipments" class="nav-link">
+            Getting Production Equipments
+          </a>
+          </header>
+          <a href="#Learning_Music_Theory" class="nav-link" id="nav-link">
+            Learning Music Theory
+          </a>
+          <a href="#Drum_Sequencing" class="nav-link" id="nav-link">
+            Drum Sequencing
+          </a>
+          <a href="#Song_Arrangement" class="nav-link" id="nav-link">
+            Song Arrangement
+          </a>
+          <a href="#Mixing_and_Mastering" class="nav-link" id="nav-link">
+            Mixing and Mastering
+          </a>
+        </nav>
+      </div>
+    </div>
+    <div class="rightcolumn">
+      <div class="header">
+        <h1>How to Start Music Production</h1>
+      </div>
+      <main id="main-doc">
+        <div class="card">
+          <section class="main-section" id="Getting_Production_Equipments">
+            <header>Getting Production Equipments</header>
+            <code></code>
+            <ol>
+              <li>Get a laptop.</li>
+              <li>Get a midi keyboard.</li>
+              <li>Get a soundcard.</li>
+              <li>Get studio monitors.</li>
+              <li>get a condenser microphone.</li>
+            </ol>
+            <p>When you get the equipments utilize their manuals to connect them effectively.</p>
+            <p>You would also need to get a D.A.W (digital audio workstation), thats were the magic happens and there are severalto choose from.</p>
+          </section>
+        </div>
+        <div class="card">
+          <section class="main-section" id="Learning_Music_Theory">
+            <header>Learning Music Theory</header>
+            <code></code>
+            <ol>
+              <li>Letters of the keyboard.</li>
+              <li>Chords.</li>
+              <li>Scales.</li>
+              <li>Chord progressions.</li>
+              <li>Melodies.</li>
+            </ol>
+            <p>Music theory is a study that allows us to understand the language of music. It is a set of guidelines and practices used to recognize the different ways to express emotions with sound.</p>
+            <p>Music theory considers melody, rhythm, counterpoint, harmony, form, tonal systems, scales, tuning, intervals, consonance, dissonance, durational proportions, the acoustics of pitch systems, composition, performance, orchestration, ornamentation, improvisation, electronic sound production.</p>
+          </section>
+        </div>
+        <div class="card">
+          <section class="main-section" id="Drum_Sequencing">
+            <header>Drum Sequencing</header>
+            <code></code>
+            <ol>
+              <li>Midi control.</li>
+              <li>Steps.</li>
+              <li>Patterns.</li>
+              <li>Trigger notes.</li>
+              <li>Programming.</li>
+            </ol>
+            <p>Great drum sounds combined with a great drum groove can make all the difference in the way listeners interact with your music and the way different elements sit in the mix.</p>
+            <p>If you have a MIDI keyboard hooked up to your computer, your DAW probably includes some sort of software sampler that will allow you to add your samples and trigger them in real-time. You will most likely also have the option to record the MIDI information so you can further manipulate parameters. When you are programming drums you may want to adjust the velocity to give a more realistic feel or use a fixed velocity for genres where you are working with electronic drums or “drum machine” sounds.</p>
+          </section>
+        </div>
+        <div class="card">
+          <section class="main-section" id="Song_Arrangement">
+            <header>Song Arrangement</header>
+            <code></code>
+            <ol>
+              <li>Song genre.</li>
+              <li>Drums.</li>
+              <li>Bass elements.</li>
+              <li>Harmonic components.</li>
+              <li>Song structure.</li>
+            </ol>
+            <p>It starts off with creating an appealing and professionally sounding song arrangement – the one that will keep the listener’s attention and tell the story of the song.</p>
+            <p>You may want all the instruments to 'lock in' together and play the same rhythm; you may want them to play different rhythms. Whatever you choose to do, though, make sure this is a conscious decision, as not paying attention to rhythm will make your arrangement sound sloppy and disjointed.</p>
+          </section>
+        </div>
+        <div class="card">
+          <section class="main-section" id="Mixing_and_Mastering">
+            <header>Mixing and Mastering</header>
+            <code></code>
+            <ol>
+              <li>Levels balancing.</li>
+              <li>Effects.</li>
+              <li>Panning.</li>
+              <li>Mix printing.</li>
+              <li>Mastering.</li>
+            </ol>
+            <p>Get a basic balance of your levels before you go crazy with effects processing. Trim ‘em so they don’t clip later. Think about headroom early.Keep a final goal in mind as you balance all of your tracks. This will give you a rough idea of how each track will eventually fit together. Processing will smooth out your rough ideas.</p>
+            <p>Now that you’ve learned all the ‘rules’ of mixing, break all of them. Well maybe not ALL of them. But good mixing is always creative mixing. Take chances with your mix. Mixing isn’t a textbook process you can learn overnight. It’s equal parts know-how, instincts, and risk taking. It’s one of the most creative steps in your process. Don’t squander it by following some dry, stale guide that says there’s only one way to do things. If you wanna put a flanger on your oboe, then put a flanger on your oboe!.</p>
+          </section>
+        </div>
+      </main>
+
+
+    </div>
+  </div>
+
+  <div class="footer">
+    <h2>Footer</h2>
+  </div>
+
+  </body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
